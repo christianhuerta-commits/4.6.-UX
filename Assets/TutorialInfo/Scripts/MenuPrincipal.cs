@@ -13,4 +13,9 @@ public class MenuPrincipal : MonoBehaviour
         Debug.Log("Saliendo del juego...");
         Application.Quit();
     }
+
+    public void RegresarAlMenu()
+    {
+    SceneManager.LoadScene("MainMenu"); 
+    }
 }
